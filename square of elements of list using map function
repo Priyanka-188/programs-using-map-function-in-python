@@ -1,0 +1,4 @@
+#square using map function 
+num = [1,5,22,12,6,4,8,2,9]
+square = list(map(lambda x:x*x ,num))
+print(square)
