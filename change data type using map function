@@ -1,0 +1,5 @@
+#for each element present in the list which are string ..map function will convert them in int type
+numbers = [ "3","4","63","53","23"]
+numbers = list(map(int,numbers)) 
+
+print(numbers)
