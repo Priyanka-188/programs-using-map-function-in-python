@@ -1,0 +1,7 @@
+# using ordinary function inside map function
+num = [1,5,22,12,6,4,8,2,9]
+def sub(a):
+    return a-2
+Subtract = list(map(sub,num))
+print(Subtract)
+
